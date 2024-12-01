@@ -1,0 +1,24 @@
+@url = http://localhost:8080/api/expense
+
+
+
+GET {{url}} HTTP/1.1
+
+
+### GET findById()
+
+GET {{url}}/1 HTTP/1.1
+
+###
+POST {{url}} HTTP/1.1
+Content-Type: application/json
+
+{
+    
+    "budgetId": 20,
+    "categoryId": 4,
+    "date": "2020-04-22",
+    "amount": 100.00,
+    "recurring": false,
+    "recurringTimeframe": "NONE"
+}

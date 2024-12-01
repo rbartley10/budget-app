@@ -1,0 +1,61 @@
+#expenseForm {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 200% !important;
+  margin: 2rem auto;
+  }
+  
+  h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+    outline: none;
+  }
+  
+  .btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 1rem;
+    width: max-content;
+  }
+  
+  
+  .btn-outline-success:hover {
+    background-color: #218838;
+  }
+ 
+  
+  .btn-outline-danger:hover {
+    background-color: #c82333;
+  }
+  
+  button[hidden] {
+    display: none;
+  }
